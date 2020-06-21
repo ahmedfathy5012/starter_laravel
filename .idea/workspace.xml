@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06dd85a9-5b55-4fe5-b791-bd8544bf2f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CRUDController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Traits/OfferTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/video.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/mailuser.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,13 +139,22 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/ajaxoffers" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\professional code\starter\app\Models" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\mail" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\offers" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\mailuser.blade" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\ajaxoffers" />
       <recent name="C:\xampp\htdocs\professional code\starter\resources\views" />
-      <recent name="C:\xampp\htdocs\professional code\starter\app\Http\Controllers\Front" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\offers" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\professional code\starter\app\Http\Controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +189,14 @@
       <workItem from="1592001556128" duration="6017000" />
       <workItem from="1592081101707" duration="5990000" />
       <workItem from="1592107546908" duration="5680000" />
-      <workItem from="1592158416895" duration="17039000" />
+      <workItem from="1592158416895" duration="19910000" />
+      <workItem from="1592268024848" duration="20864000" />
+      <workItem from="1592335337284" duration="8450000" />
+      <workItem from="1592421514297" duration="7512000" />
+      <workItem from="1592433160758" duration="4326000" />
+      <workItem from="1592563878492" duration="4760000" />
+      <workItem from="1592601660844" duration="17342000" />
+      <workItem from="1592689633817" duration="10677000" />
     </task>
     <servers />
   </component>
@@ -186,7 +208,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
