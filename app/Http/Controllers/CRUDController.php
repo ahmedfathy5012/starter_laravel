@@ -54,8 +54,8 @@ class CRUDController extends Controller
 
 
      public function getAllOffers(){
-        $offers = Offer::select('id','name_ar','name_en','price')->get();  // return collection
-        return view('offers.all',compact('offers'));
+        $offers = Offer::select('id','name_ar','name_en','price','photo')->paginate(5);  // return collection
+        return view('offers.pagination',compact('offers'));
      }
 
 

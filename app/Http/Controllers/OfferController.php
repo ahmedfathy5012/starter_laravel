@@ -43,7 +43,7 @@ class OfferController extends Controller
 
 
     public function index(){
-        $offers = Offer::select('id','name_ar','name_en','price')->get();  // return collection
+        return $offers = Offer::select('id','name_ar','name_en','price')->paginate(1);  // return collection
         return view('ajaxoffers.all',compact('offers'));
     }
 

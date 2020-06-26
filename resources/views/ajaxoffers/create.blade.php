@@ -23,31 +23,23 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">أختر صوره العرض</label>
                         <input type="file" class="form-control" name="photo">
-                        @error('photo')
-                        <small class="form-text text-danger">{{$message}}</small>
-                        @enderror
+                        <small id="photo_id" class="form-text text-danger"></small>
                     </div>
 
                     <div class="form-group">
                         <label for="exampleInputEmail1">Offer Name</label>
                         <input type="text" class="form-control" name="name_en" placeholder="name_en">
-                        @error('name_en')
-                        <small class="form-text text-danger">{{$message}}}</small>
-                        @enderror
+                        <small id="name_en_id" class="form-text text-danger"></small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Offer Name</label>
                         <input type="text" class="form-control" name="name_ar" placeholder="name_ar">
-                        @error('name_ar')
-                        <small class="form-text text-danger">{{$message}}}</small>
-                        @enderror
+                        <small id="name_ar_id" class="form-text text-danger"></small>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Offer Price</label>
                         <input type="text" class="form-control" name="price" placeholder="price">
-                        @error('price')
-                        <small class="form-text text-danger">{{$message}}}</small>
-                        @enderror
+                        <small id="price_id" class="form-text text-danger"></small>
                     </div>
                     <button id="store_offer" class="btn btn-primary" >Save</button>
                 </form>
@@ -61,6 +53,10 @@
    <script>
        $(document).on('click','#store_offer',function (e) {
            e.preventDefault();
+           $('#name_ar_id').text('');
+           $('#name_en_id').text('');
+           $('#price_id').text('');
+
            var formData = new FormData($('#offerForm')[0])
            $.ajax({
                type: 'POST',
@@ -78,7 +74,10 @@
                  }
                },
                error: function (reject) {
-
+                  var response = $.parseJSON(reject.responseText);
+                  $.each(response.errors,function (key,val) {
+                   $('#'+key+'_id').text(val[0]);
+                  });
                },
            });
        })

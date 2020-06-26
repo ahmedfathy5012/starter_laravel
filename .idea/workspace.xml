@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06dd85a9-5b55-4fe5-b791-bd8544bf2f62" name="Default Changelist" comment="" />
+    <list default="true" id="06dd85a9-5b55-4fe5-b791-bd8544bf2f62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/adminLogin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/customAuth/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/doctors/doctor_services.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/doctors/doctors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/doctors/hospitals.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/doctors/services.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/pagination.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/CustomAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/CustomAuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CRUDController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CRUDController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OfferController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OfferController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Listeners/IncreaseCounter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Listeners/IncreaseCounter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ajaxoffers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ajaxoffers/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,22 +140,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/ajaxoffers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/offers" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\offers" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\doctors" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\auth" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views" />
+      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\customAuth" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\professional code\starter\app\Models" />
+      <recent name="C:\xampp\htdocs\professional code\starter\app" />
       <recent name="C:\xampp\htdocs\professional code\starter\resources\views\mail" />
       <recent name="C:\xampp\htdocs\professional code\starter\resources\views\offers" />
       <recent name="C:\xampp\htdocs\professional code\starter\resources\views\mailuser.blade" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\ajaxoffers" />
-      <recent name="C:\xampp\htdocs\professional code\starter\resources\views" />
-      <recent name="C:\xampp\htdocs\professional code\starter\resources\views\offers" />
-      <recent name="C:\xampp\htdocs\professional code\starter\resources\lang\en" />
-      <recent name="C:\xampp\htdocs\professional code\starter\app\Http\Controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +198,13 @@
       <workItem from="1592433160758" duration="4326000" />
       <workItem from="1592563878492" duration="4760000" />
       <workItem from="1592601660844" duration="17342000" />
-      <workItem from="1592689633817" duration="10960000" />
+      <workItem from="1592689633817" duration="14730000" />
+      <workItem from="1592778030549" duration="12156000" />
+      <workItem from="1592874046940" duration="3767000" />
+      <workItem from="1592890394794" duration="11133000" />
+      <workItem from="1592950373631" duration="10862000" />
+      <workItem from="1593036555960" duration="6330000" />
+      <workItem from="1593125546852" duration="4756000" />
     </task>
     <task id="LOCAL-00001" summary="ajax">
       <created>1592706259270</created>
@@ -183,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592706259270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajax">
+      <created>1592706606009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592706606009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
